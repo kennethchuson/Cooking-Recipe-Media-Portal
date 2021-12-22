@@ -16,10 +16,6 @@ function Home() {
     return (
         <div>
             <img className="image_one" src={img} alt="body img"/>
-            <div className="footer">
-                <h3>CSC675</h3>
-            </div>
-
         </div>
     )
 }
