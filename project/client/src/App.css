@@ -1,0 +1,325 @@
+body {
+  background-color: rgb(42, 45, 55); 
+}
+
+label, h1, h2, h4 {
+  color: white; 
+}
+
+.name_usersLists, .name_IngredientPosts {
+  color: black 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(168, 216, 251);
+  color: rgb(40, 40, 40);
+  text-align: center;
+}
+
+input {
+  outline: none;
+  background-color: rgb(56, 56, 66);
+  border-radius: 10px;
+
+}
+
+input, select, textarea{
+  color: #ffffff;
+}
+
+
+.title_name {
+  text-align: center; 
+
+}
+
+.ingredient_Container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.card_IngredientPost {
+  width: auto; 
+  height: auto; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  border-radius: 5px;
+  background-color: rgb(249, 243, 117); 
+  margin: 10px; 
+  padding: 10px; 
+}
+
+.card_MealPost {
+  width: 50%; 
+  height: 50%; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  border-radius: 5px;
+  background-color: white; 
+  margin: 10px; 
+  padding: 10px; 
+}
+
+.card_MealPost:hover {
+  width: 50%; 
+  height: 50%; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  border-radius: 5px;
+  background-color: rgb(208, 208, 208); 
+  margin: 10px; 
+  padding: 10px; 
+}
+
+
+.card_usersLists {
+  width: 50%; 
+  height: 50%; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  border-radius: 5px;
+  background-color: white; 
+  margin: 10px; 
+  padding: 10px; 
+}
+
+.card_usersCategories {
+  width: 50%; 
+  height: 50%; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  border-radius: 5px;
+  background-color: rgb(234, 136, 236); 
+  margin: 10px; 
+  padding: 10px;
+}
+
+.usersChoose_title {
+  text-align: center; 
+  margin: auto; 
+  width: 50%; 
+}
+
+.userChoose_title2 {
+  text-align: center; 
+}
+.Login-input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Login-tab {
+  margin: auto;
+  background-color: rgb(105, 105, 105);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  text-align: center; 
+  padding: 10px; 
+  border-radius: 5px;
+  width: 50%; 
+  height: 50%; 
+}
+
+.userWork_tab_container {
+  margin: auto; 
+  margin-top: 5%; 
+  background-color: rgb(37, 86, 96);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  text-align: center; 
+  padding: 10px; 
+  border-radius: 5px;
+  width: 90%; 
+  height: 90%; 
+ 
+}
+
+.user_work {
+  margin: auto; 
+  margin-top: 5%; 
+  background-color: rgb(19, 124, 145);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  text-align: center; 
+  padding: 10px; 
+  border-radius: 5px;
+  width: 90%; 
+  height: 90%;
+}
+.ingredientMealLists {
+  font-size: 15px;
+  color: rgb(5, 5, 152);
+
+}
+
+.Ingredient {
+  background-color:rgb(186, 87, 0)
+}
+
+.image_one {
+  width: 100%; 
+}
+
+.button_usersLists, .button_ingredientLists {
+  float: right; 
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(119, 123, 1)
+}
+
+.form {
+  margin: auto;
+  background-color: rgb(41, 48, 69);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  text-align: center; 
+  padding: 10px; 
+  border-radius: 5px;
+  width: 50%; 
+  height: 50%; 
+}
+
+.button_ingredientLists_delete, .button_mealLists_delete {
+  float: right; 
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(156, 21, 21)
+}
+
+.users_button_delete {
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(156, 21, 21)
+}
+
+
+.button_CategoryLists_delete {
+  float: right; 
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(156, 21, 21)
+}
+
+.button_mealLists_edit {
+  float: right; 
+  border-radius: 20px; 
+  outline: none; 
+  color: white; 
+  background-color:rgb(139, 98, 2)
+}
+
+.button_ingredientLists_add {
+  float: right; 
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(54, 154, 0)
+}
+
+.submit {
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(19, 140, 21)
+}
+.submit_login {
+  border-radius: 5px; 
+  color: white; 
+  justify-content: center;
+  background-color:rgb(19, 140, 21)
+}
+
+.submit_logout {
+  height: 50px; 
+  width: 50%; 
+  margin-left:25%;
+  margin-right:25%;
+  border-radius: 5px; 
+  color: white; 
+  justify-content: center;
+  background-color:rgb(195, 97, 0)
+}
+
+.settings_button {
+  border-radius: 5px; 
+  color: white; 
+  margin-left: auto;
+  background-color:rgb(239, 133, 237)
+}
+
+.button_update {
+  border-radius: 5px; 
+  color: rgb(255, 255, 255); 
+  margin-left: auto;
+  background-color:rgb(129, 145, 2)
+}
+
+.FoodImageAPI {
+  border-radius: 8px; 
+  border: 5px solid rgb(246, 158, 36); 
+  margin: 20px; 
+}
+
+.TotalData-Stats {
+  color: white; 
+}
+
+.TotalData-Stats-high {
+  color: rgb(4, 207, 4); 
+}
+
+.TotalData-Stats-middle {
+  color: yellow; 
+}
+
+.TotalData-Stats-low {
+  color: red; 
+}
+
+.text-TotalData, .text-MeanData, .text-SDData {
+  color: white
+}
+
+.Mean-Stats-high {
+  color: rgb(4, 207, 4); 
+}
+
+.Mean-Stats-middle {
+  color: yellow; 
+}
+
+.Mean-Stats-low {
+  color: red; 
+}
+
+.SD-Stats-high {
+  color: rgb(4, 207, 4); 
+}
+
+.SD-Stats-middle {
+  color: yellow; 
+}
+
+.SD-Stats-low {
+  color: red; 
+}
+
+.switchChart_button {
+  float: right; 
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(159, 10, 169)
+}
+
+.switchChart_button:focus {
+  outline:none !important;
+}
+
+.Info_Meal_button {
+  border-radius: 5px; 
+  color: white; 
+  background-color:rgb(142, 84, 3)
+  
+}
+
+.specific_Ingredient {
+  background-color: rgb(54, 2, 29);
+  text-align: center; 
+  border-radius: 5px;
+  color: white; 
+}
