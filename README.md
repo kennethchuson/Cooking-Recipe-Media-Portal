@@ -11,7 +11,7 @@ Ability to share and create meals, meals of categories, and ingredients for thei
 ```
 
 ## Run Project:
-you need your discord bot token
+
 ```
 1.) npm start on client directory 
 2.) nodemon on server directory 
